@@ -145,11 +145,6 @@
     min-height: 100vh;
 }
 
-#schedule-title{
-    font-size: 6em;
-    margin-top: 0.5em;
-}
-
 .schedule-container{
     margin: 5em 5em;
     padding-bottom: 3em;
@@ -172,7 +167,6 @@
 
 .event h2{
     color:#706252;
-    font-size: 1.2em;
     padding:  0;
     margin:2px;
 }
@@ -241,12 +235,9 @@
 @media screen and (max-width: 1150px) {
 
     .schedule-container-main{
-        width: 100%;
+        width: 100vw;
     }
 
-    .schedule-container {
-        width: 80%;
-    }
     .schedule-container .event {
         width: 100%;
         transform: none;
@@ -287,6 +278,10 @@
     background-color: #f7f3ed;
     padding: 20% 10% 10% 10%;
     width: 400px;
+}
+
+.menu-container-small p.handwriting{
+    font-size: x-large;
 }
 
 @media screen and (max-width: 1150px) {
@@ -379,10 +374,6 @@
     text-align: center;
     min-height: 100vh;
     padding-top: 30vh;
-}
-
-.contact-container p{
-    font-size: 2em
 }
 
 .contact-container img{
