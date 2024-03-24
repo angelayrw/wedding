@@ -381,6 +381,10 @@
     padding-top: 30vh;
 }
 
+.contact-container p{
+    font-size: 2em
+}
+
 .contact-container img{
     width: 100px;
     border-radius: 50%;
