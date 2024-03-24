@@ -146,7 +146,7 @@
 }
 
 #schedule-title{
-    font-size: 40px;
+    font-size: 6em;
     margin-top: 0.5em;
 }
 
@@ -170,9 +170,9 @@
     text-align: center;
 }
 
-.event h3{
+.event h2{
     color:#706252;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding:  0;
     margin:2px;
 }
@@ -239,8 +239,13 @@
 }
 
 @media screen and (max-width: 1150px) {
+
+    .schedule-container-main{
+        width: 100%;
+    }
+
     .schedule-container {
-        width: 80vw;
+        width: 80%;
     }
     .schedule-container .event {
         width: 100%;
