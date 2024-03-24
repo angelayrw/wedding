@@ -235,13 +235,12 @@
 @media screen and (max-width: 1150px) {
 
     .schedule-container-main{
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 100vw;
+        overflow: hidden;
     }
 
     .schedule-container .event {
-        width: 100%;
+        width: 80vw;
         transform: none;
         padding-left: 0;
         padding-right: 0;
@@ -282,8 +281,8 @@
     width: 400px;
 }
 
-.menu-container-small p.handwriting{
-    font-size: x-large;
+.menu .handwriting{
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 1150px) {
