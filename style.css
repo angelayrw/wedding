@@ -232,11 +232,27 @@
     right: -0.5em;
 }
 
+.dresscode-container{
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#queensmap{
+    max-width:600px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 @media screen and (max-width: 1150px) {
 
     .schedule-container-main{
         width: 100vw;
         overflow: hidden;
+    }
+
+    .schedule-container{
+        margin-bottom: 0;
     }
 
     .schedule-container .event {
@@ -258,7 +274,21 @@
         left: 50%;
         transform: translateX(-50%);
     } 
+
+    .dresscode-container{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #queensmap{
+        width: 90%;
+        overflow: hidden;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    
 }
+
 
 /* Menu Page */
 
