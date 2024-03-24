@@ -146,7 +146,7 @@
 }
 
 #schedule-title{
-    font-size: 5em;
+    font-size: 40px;
     margin-top: 0.5em;
 }
 
@@ -165,14 +165,14 @@
 
 .event div {
     border:2px solid #706252;
-    padding: 1.5em;
+    padding: 2em;
     border-radius: 5px;
     text-align: center;
 }
 
 .event h3{
     color:#706252;
-    font-size: 1.2rem;
+    font-size: 1.5em;
     padding:  0;
     margin:2px;
 }
