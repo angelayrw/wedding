@@ -14,7 +14,7 @@ export default {
 
     "navText3": {
         "en": "Menu",
-        "zh": "菜单",
+        "zh": "晚宴菜单",
         "pt": "Menu"
     },
 

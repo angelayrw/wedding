@@ -413,6 +413,7 @@ nav .nav-toggle{
         background-color: #f7f3ed;
         padding: 20% 10% 10% 10%;
         min-width: 75vw;
+        overflow: hidden;
     }
 }    
 
