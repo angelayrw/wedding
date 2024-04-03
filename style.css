@@ -380,6 +380,7 @@ nav .nav-toggle{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2em;
+    overflow: hidden;
 }
 
 
@@ -389,12 +390,14 @@ nav .nav-toggle{
     align-items: center;
     margin-top: 2em;
     min-width: 35vw;
+    overflow: hidden;
 }
 
 .menu{
     background-color: #f7f3ed;
     padding: 20% 10% 10% 10%;
     width: 100%;
+    overflow: hidden;
 }
 
 .menu .handwriting{
@@ -407,14 +410,12 @@ nav .nav-toggle{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
     }
 
     .menu{
         background-color: #f7f3ed;
         padding: 20% 10% 10% 10%;
         min-width: 75vw;
-        overflow: hidden;
     }
 }    
 
