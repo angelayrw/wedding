@@ -407,6 +407,7 @@ nav .nav-toggle{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     .menu{
