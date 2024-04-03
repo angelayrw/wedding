@@ -105,6 +105,7 @@ nav .nav-toggle{
 #languageDropdown{
     background-color: transparent;
     border:0;
+    font-size: medium;
 }
 
 #languageDropdown:focus {
