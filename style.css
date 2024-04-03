@@ -373,6 +373,7 @@ nav .nav-toggle{
     min-height: 100vh;
     text-align: center;
     margin: 2em 1em 1em 1em;
+    overflow: hidden;
 }
 
 .menu-container{
@@ -410,12 +411,14 @@ nav .nav-toggle{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     .menu{
         background-color: #f7f3ed;
         padding: 20% 10% 10% 10%;
         min-width: 75vw;
+        overflow: hidden;
     }
 }    
 
