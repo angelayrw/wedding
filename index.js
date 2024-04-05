@@ -123,7 +123,15 @@ document.addEventListener('DOMContentLoaded', function() {
     modal.addEventListener('click', function() {
         modal.style.display = 'none'; //click to hide the full image
     });
+
+    /* Additional code for zoom*/
+    fullsizeImage.addEventListener('click', function() {
+        fullsizeImage.classList.toggle('zoomed');
+    });
+
 });
+
+
 
 // Nav bar to hide when scroll down
 
