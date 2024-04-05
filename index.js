@@ -125,9 +125,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     /* Additional code for zoom*/
-    fullsizeImage.addEventListener('click', function() {
-        fullsizeImage.classList.toggle('zoomed');
-    });
+    // fullsizeImage.addEventListener('click', function() {
+    //     fullsizeImage.classList.toggle('zoomed');
+    // });
 
 });
 

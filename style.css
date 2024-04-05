@@ -96,8 +96,8 @@ nav .nav-toggle{
     nav .nav-item.active {
         display: block; /* Shown when 'active' class is added */
         margin: 0.3em;
-        margin-left:15px;
-        width:
+        margin-left: 15px;
+        width: 100vw;
     }
 
     nav .nav-toggle {
@@ -398,20 +398,20 @@ nav .nav-toggle{
     justify-content: center;
 }
 
-/* #fullsizeImage {
+#fullsizeImage {
     max-width: 100%;
     max-height: 100%;
-} */
+}
 
-#fullsizeImage {
+/* #fullsizeImage {
     transition: transform 0.25s ease;
-    cursor: zoom-in; /* Indicate that the image can be zoomed */
+    cursor: zoom-in; 
 }
 
 #fullsizeImage.zoomed {
-    transform: scale(80vw); /* Example zoom level */
-    cursor: zoom-out; /* Change cursor to indicate zoom out */
-}
+    transform: scale(80vw); 
+    cursor: zoom-out; 
+} */
 
 @media screen and (max-width: 1150px) {
 
