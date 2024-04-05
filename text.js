@@ -491,18 +491,6 @@ export default {
         "zh": "婚礼地址",
         "pt": ""
     },
-
-    "contactPageText2": {
-        "en": "Venue Contact:",
-        "zh": "联系方式",
-        "pt": ""
-    },
-
-    "contactPageText2-1": {
-        "en": "(Porter's Lodge)",
-        "zh": "（门房）",
-        "pt": ""
-    },
     
     "contactPageText3": {
         "en": "Social Media:",

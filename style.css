@@ -46,7 +46,7 @@ nav .nav-toggle{
     display: none;
 }
 
-nav .nav-decor{
+.navbar2{
     display: none;
 }
 
@@ -501,9 +501,14 @@ nav .nav-decor{
 
 @media screen and (max-width: 1150px) {
 
+    .main-body{
+        overflow-x: hidden;
+    }
+
     .menu-container-main{
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 5%;    
+        overflow-x: hidden;
     }
 
     .menu-container{
@@ -512,18 +517,24 @@ nav .nav-decor{
         justify-content: center;
         align-items: center;
         width: 100%;
-        overflow: hidden;
+        overflow-x: hidden;
+    }
+
+    .menu-container-small{
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .menu{
         background-color: #f7f3ed;
-        padding: 20% 10% 10% 10%;
+        padding: 20% 5% 5% 5%;
         width: 100%;
+        overflow-x: hidden;
     }
 
     .menu p{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }    
 
@@ -601,7 +612,7 @@ nav .nav-decor{
     align-items: center;
     text-align: center;
     margin:10%;
-    height: 85vh;
+    min-height: 85vh;
 }
 
 .venue-container{
