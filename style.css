@@ -421,21 +421,25 @@ nav .nav-toggle{
     overflow: hidden;
 }
 
-
 .menu-container-small{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2em;
-    min-width: 35vw;
+    margin-top: 1em;
+    width: 500px;
+    height: 800px;
     overflow: hidden;
 }
 
 .menu{
     background-color: #f7f3ed;
-    padding: 20% 10% 10% 10%;
     width: 100%;
     overflow: hidden;
+}
+
+.menu p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .menu .handwriting{
@@ -453,6 +457,10 @@ nav .nav-toggle{
         justify-content: center;
         align-items: center;
         overflow: hidden;
+    }
+
+    .menu-container-small{
+        width: 90vw;
     }
 
     .menu{
