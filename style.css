@@ -487,10 +487,7 @@ nav .nav-toggle{
     overflow: hidden;
     padding-top: 3em;
     padding-bottom: 2em;
-}
-
-.menu p{
-    margin-left: 5%;
+    margin-left:5%;
     margin-right: 5%;
 }
 
@@ -506,8 +503,7 @@ nav .nav-toggle{
     }
 
     .menu-container-main{
-        margin-left: 5%;
-        margin-right: 5%;    
+        margin: 5%;
         overflow-x: hidden;
     }
 
