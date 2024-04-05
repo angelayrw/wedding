@@ -46,6 +46,10 @@ nav .nav-toggle{
     display: none;
 }
 
+nav .nav-decor{
+    display: none;
+}
+
 .navbar-logo {
     margin-left: 15px;
     margin-top: 2px;
@@ -68,6 +72,7 @@ nav .nav-toggle{
 
     nav {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         margin: 0;
@@ -77,12 +82,13 @@ nav .nav-toggle{
         overflow-x: hidden;
         }
 
-    .navbar1{
+    .navbar1 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 35vw;
     }
-
+    
     nav .nav-item {
         display: none; /* Hide items on small screens */
     }
@@ -98,6 +104,24 @@ nav .nav-toggle{
         margin-right: 15px;
         margin-top: 9.5px;
     } 
+
+    .navbar2{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-logo{
+        width: 35vw;
+        display: flex;
+        justify-content: start;
+    }
+
+    .navbar3{
+        width: 35vw;
+        display: flex;
+        justify-content: end;
+    }
 }
 
 #languageDropdown{
@@ -133,6 +157,7 @@ nav .nav-toggle{
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 *{
@@ -152,6 +177,10 @@ nav .nav-toggle{
 
 .brown{
     color: #706252;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* Home Page */
@@ -227,10 +256,16 @@ nav .nav-toggle{
     min-height: 100vh;
 }
 
-.schedule-container{
+.schedule-container {
     margin: em 5em;
     padding-bottom: 3em;
     max-width: 34.15em;
+}
+
+.schedule-container .h2 {
+    display: flex; 
+    align-items: center;
+    text-align: center; 
 }
 
 .event{
@@ -240,20 +275,36 @@ nav .nav-toggle{
     position: relative;
 }
 
-.event div {
+.event .event-container {
     border:2px solid #706252;
     padding: 2em;
     border-radius: 5px;
     text-align: center;
 }
 
-.event h2{
+.event .event-title{
+    border:0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#706252;
-    padding: 0;
-    margin:2px;
+    margin:0;
+    padding:0;
+}
+
+.event .event-title div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+    padding:0;
+    width: fit-content;
+}
+
+.event .event-title h2{
+    margin:0;
+    padding:0;
 }
 
 .svg-images{
@@ -409,7 +460,7 @@ nav .nav-toggle{
 .menu-container-main{
     min-height: 100vh;
     text-align: center;
-    margin: 2em 1em 1em 1em;
+    margin: 2em 1em 1em auto;
     overflow: hidden;
 }
 
@@ -427,7 +478,6 @@ nav .nav-toggle{
     align-items: center;
     margin-top: 1em;
     width: 500px;
-    height: 800px;
     overflow: hidden;
 }
 
@@ -435,6 +485,8 @@ nav .nav-toggle{
     background-color: #f7f3ed;
     width: 100%;
     overflow: hidden;
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 .menu p{
@@ -446,28 +498,32 @@ nav .nav-toggle{
     font-size: 1.5em;
 }
 
-.cursive {
-    font-style: italic;
-}
 
 @media screen and (max-width: 1150px) {
+
+    .menu-container-main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .menu-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
         overflow: hidden;
-    }
-
-    .menu-container-small{
-        width: 90vw;
     }
 
     .menu{
         background-color: #f7f3ed;
         padding: 20% 10% 10% 10%;
-        min-width: 75vw;
-        overflow: hidden;
+        width: 100%;
+    }
+
+    .menu p{
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }    
 
@@ -540,31 +596,47 @@ nav .nav-toggle{
 
 .contact-container{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: center;
-    min-height: 80vh;
-    padding-top: 30vh;
-}
-
-.contact-container img{
-    width: 100px;
-    border-radius: 50%;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:10%;
+    height: 85vh;
 }
 
+.venue-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-@media screen and (max-width: 1150px) {
-    .contact-container{
+.venue-info p{
+    margin: 0;
+    padding: 0;
+}
+
+.venue-info h2{
+    margin-top: 2em;
+}
+
+.social-container p{
+    margin: 0;
+    padding: 0;
+}
+
+.social-container h2{
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .venue-container{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        min-height: 80vh;
-        padding: 2em;
     }
+    
 }

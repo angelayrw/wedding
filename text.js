@@ -19,9 +19,9 @@ export default {
     },
 
     "navText4": {
-        "en": "Guest Info",
-        "zh": "宾客信息",
-        "pt": "Informações para os convidados"
+        "en": "Travel Guide",
+        "zh": "旅行信息",
+        "pt": "Guia para viagem"
     },
 
     "navText5": {
@@ -31,9 +31,9 @@ export default {
     },
 
     "footerText1": {
-        "en": "with 💗 from London",
-        "zh": "with 💗 from London",
-        "pt": "with 💗 from London"
+        "en": "with ♡ from London",
+        "zh": "with ♡ from London",
+        "pt": "with ♡ from London"
     },
 
     "landingPageText1": {
@@ -77,10 +77,17 @@ export default {
         "zh": "婚礼日程安排",
         "pt": "Programação do Dia"
     },
-    "schedulePageText2": {
-        "en": "13:30 - Welcome",
-        "zh": "13:30 - 欢迎",
-        "pt": "13h30 - Bem-vindo"
+
+    "schedulePageText2-1": {
+        "en": "13:30 ",
+        "zh": "13:30 ",
+        "pt": "13h30 "
+    },
+
+    "schedulePageText2-2": {
+        "en": "- Welcome",
+        "zh": "- 欢迎",
+        "pt": "- Bem-vindo"
     },
 
     "schedulePageText3": {
@@ -89,10 +96,16 @@ export default {
         "pt": "Os convidados são convidados a se reunir no Jardim da Nogueira (Walnut Tree Court) antes da cerimônia. Por favor, entre no colégio através da portaria na Rua Silver, onde orientações serão fornecidas."
     },
     
-    "schedulePageText4": {
-        "en": "14:30 - Ceremony",
-        "zh": "14:30 - 婚礼仪式",
-        "pt": "14h30 - Cerimônia"
+    "schedulePageText4-1": {
+        "en": "14:30 ",
+        "zh": "14:30 ",
+        "pt": "14h30 "
+    },
+
+    "schedulePageText4-2": {
+        "en": "- Ceremony",
+        "zh": "- 婚礼仪式",
+        "pt": "- Cerimônia"
     },
     
     "schedulePageText5": {
@@ -101,10 +114,16 @@ export default {
         "pt": "A cerimônia de casamento acontecerá na capela. Uma celebração com confete será feita na sequência, na famosa ponte Matemática, sobre o Rio Cam."
     },
     
-    "schedulePageText6": {
-        "en": "15:30 - Cocktail Reception",
-        "zh": "15:30 - 鸡尾酒茶歇",
-        "pt": "15h30 - Recepção/Canapés"
+    "schedulePageText6-1": {
+        "en": "15:30 ",
+        "zh": "15:30 ",
+        "pt": "15h30 "
+    },
+
+    "schedulePageText6-2": {
+        "en": "- Cocktail Reception",
+        "zh": "- 鸡尾酒茶歇",
+        "pt": "- Recepção/Canapés"
     },
     
     "schedulePageText7": {
@@ -113,10 +132,16 @@ export default {
         "pt": "Junte-se a nós para uma recepção com coquetéis e canapés no Jardim Antigo (Old Court). Esta será uma oportunidade para os convidados tirarem fotografias com o casal."
     },
     
-    "schedulePageText8": {
-        "en": "17:30 - Dinner",
-        "zh": "17:30 - 晚宴",
-        "pt": "17h30 - Jantar"
+    "schedulePageText8-1": {
+        "en": "17:30 ",
+        "zh": "17:30 ",
+        "pt": "17h30 "
+    },
+    
+    "schedulePageText8-2": {
+        "en": "- Dinner",
+        "zh": "- 晚宴",
+        "pt": "- Jantar"
     },
     
     "schedulePageText9-1": {
@@ -137,10 +162,16 @@ export default {
         "pt": "."
     },
     
-    "schedulePageText10": {
-        "en": "20:00 - Evening Reception",
-        "zh": "20:00 - 落日派对",
-        "pt": "20h00 - Recepção Noturna"
+    "schedulePageText10-1": {
+        "en": "20:00 ",
+        "zh": "20:00 ",
+        "pt": "20h00 "
+    },
+    
+    "schedulePageText10-2": {
+        "en": "- Evening Reception",
+        "zh": "- 落日派对",
+        "pt": "- Recepção Noturna"
     },
     
     "schedulePageText11": {
@@ -150,15 +181,15 @@ export default {
     },
     
     "schedulePageText12": {
-        "en": "The dress code for our wedding is semi-formal/cocktail attire. Think cocktail dresses or a suit and tie or a jacket.",
-        "zh": "我们婚礼的着装要求为半正式/鸡尾酒装，例如鸡尾酒裙，茶歇裙，西装领带或休闲外套。",
-        "pt": "O código de vestimenta para nosso casamento é semi-formal/traje de coquetel. Pense em vestidos de coquetel, um terno e gravata, ou um paletó esportivo."
+        "en": "* The dress code for our wedding is semi-formal/cocktail attire. Think cocktail dresses or a suit and tie or a jacket.",
+        "zh": "* 我们婚礼的着装要求为半正式/鸡尾酒装，例如鸡尾酒裙，茶歇裙，西装领带或休闲外套。",
+        "pt": "* O código de vestimenta para nosso casamento é semi-formal/traje de coquetel. Pense em vestidos de coquetel, um terno e gravata, ou um paletó esportivo."
     },
     
     "schedulePageText13": {
-        "en": "Tips for the ladies: We suggest opting for wedges or block heels instead of stilettos, as our cocktail reception will be on grass. We wouldn’t want anyone’s stylish shoes getting stuck and destroyed!",
-        "zh": "给女士们的建议：考虑到部分婚礼环节将在草地上举行，我们建议选择粗跟或坡跟鞋，以免您的细高跟卡在草地里。",
-        "pt": "Dicas para as damas: Sugerimos optar por sandálias com salto plataforma ou saltos grossos em vez de saltos agulha, já que nossa recepção no jardim será na grama. Não queremos que os sapatos estilosos de ninguém fiquem presos ou sejam destruídos!"
+        "en": "** Tips for the ladies: We suggest opting for wedges or block heels instead of stilettos, as our cocktail reception will be on grass. We wouldn’t want anyone’s stylish shoes getting stuck and destroyed!",
+        "zh": "** 给女士们的建议：考虑到部分婚礼环节将在草地上举行，我们建议选择粗跟或坡跟鞋，以免您的细高跟卡在草地里。",
+        "pt": "** Dicas para as damas: Sugerimos optar por sandálias com salto plataforma ou saltos grossos em vez de saltos agulha, já que nossa recepção no jardim será na grama. Não queremos que os sapatos estilosos de ninguém fiquem presos ou sejam destruídos!"
     },
     
     "menuPageText1": {
@@ -217,7 +248,7 @@ export default {
 
     "menuPageText3-7": {
         "en": "Dessert",
-        "zh": "甜点",
+        "zh": "甜品",
         "pt": "Sobremesa"
     },
 
@@ -277,7 +308,7 @@ export default {
 
     "menuPageText4-7": {
         "en": "Dessert",
-        "zh": "甜点",
+        "zh": "甜品",
         "pt": "Sobremesa"
     },
 
@@ -306,9 +337,9 @@ export default {
     },
     
     "infoPageText1-2":{
-        "en": "Queens'College",
+        "en": "Queens' College",
         "zh": "皇后学院",
-        "pt": "Queens'College"
+        "pt": "Queens' College"
     },
 
     "infoPageText1-3":{
@@ -324,7 +355,7 @@ export default {
     },
     
     "infoPageText2-1": {
-        "en": "There are many hotels within walking distance of Queens’ College. The nearest ones include ",
+        "en": "There are many hotels within walking distance of Queens’ College. The nearest ones include the ",
         "zh": "在皇后学院附近有许多步行距离内的酒店。 最近的酒店包括 ",
         "pt": "Existem diversos hotéis a uma curta distância do Queens’ College. Os mais próximos incluem "
     },
@@ -378,7 +409,7 @@ export default {
     },
     
     "infoPageText4-1": {
-        "en": "Cambridge boasts 31 unique colleges. Apart from Queens’, we recommend King’s College, Trinity College, and St John’s College as the most popular ones if you intend to visit them. You may need to purchase tickets onsite at each college. If you have a moment on Friday evening you might want to see if there's an evensong happening at King's College. It's a lovely way to unwind and experience the peaceful ambiance. You may discover the city's cultural heritage at ",
+        "en": "Cambridge boasts 31 unique colleges. Apart from Queens’, we recommend King’s College, Trinity College, and St John’s College as the most popular ones if you intend to visit them. You may need to purchase tickets onsite at each college. If you have a moment on Friday evening you might want to see if there's an evensong happening at King's College. It's a lovely way to unwind and experience the peaceful ambiance. You may discover the city's cultural heritage at the ",
         "zh": "剑桥共有31所学院。 除皇后学院外，国王学院、三一学院和圣约翰学院是最受游客欢迎的学院。 您可能需要在每个学院现场购买门票。 周五晚上国王学院通常会举办晚祷活动，对公众免费开放。您可以在",
         "pt": "Cambridge possui 31 faculdades únicas. Além do Queens’, recomendamos o King’s College, Trinity College e St John’s College como os mais populares se você pretende visitá-los. Você pode precisar comprar ingressos no local de cada faculdade. Se você tiver um momento na sexta-feira à noite, pode querer ver se há uma evensong acontecendo no King's College. É uma maneira adorável de relaxar e experimentar a atmosfera tranquila. Você pode descobrir o patrimônio cultural da cidade no "
     },
@@ -390,7 +421,7 @@ export default {
     },
 
     "infoPageText4-3": {
-        "en": ", featuring art and antiquities. Punting is a popular Cambridge activity. There are various",
+        "en": ", featuring art and antiquities. Punting is a popular Cambridge activity. There are various ",
         "zh": "参观剑桥的文化遗产，该博物馆展出各种艺术品和古董。游船是剑桥最受欢迎的活动之一。 在剑桥有各种",
         "pt": ", que apresenta arte e antiguidades. O punting (mistura de balsa com gôndola) é uma atividade popular em Cambridge. Existem diversos "
     },
@@ -408,7 +439,7 @@ export default {
     },
 
     "infoPageText4-6": {
-        "en": "a guided city walk",
+        "en": "guided city walk",
         "zh": "城市徒步",
         "pt": "um passeio guiado pela cidade"
     },
@@ -453,5 +484,35 @@ export default {
         "en": " for more recommendations.",
         "zh": "获取更多推荐。",
         "pt": " para mais recomendações."
-    }
+    },
+
+    "contactPageText1": {
+        "en": "Venue Address:",
+        "zh": "婚礼地址",
+        "pt": ""
+    },
+
+    "contactPageText2": {
+        "en": "Venue Contact:",
+        "zh": "联系方式",
+        "pt": ""
+    },
+
+    "contactPageText2-1": {
+        "en": "(Porter's Lodge)",
+        "zh": "（门房）",
+        "pt": ""
+    },
+    
+    "contactPageText3": {
+        "en": "Social Media:",
+        "zh": "社交媒体",
+        "pt": ""
+    },
+    
+    "contactPageText3-1": {
+        "en": "We plan to set up a WhatsApp group and a wechat group. Please come back to this page for QR code prior to the wedding date.",
+        "zh": "我们将在婚礼前建立一个微信和WhatsApp群以便与宾客们分享信息。请在婚礼日期之前回到此页面查看二维码。",
+        "pt": ""
+    },
 }
