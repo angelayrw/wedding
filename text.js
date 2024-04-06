@@ -216,9 +216,15 @@ export default {
         "pt": "Entrada"
     },
 
-    "menuPageText3-2": {
-        "en": "Confit Duck à l'Orange Rillette with Blood Orange Jelly, Grated Bitter Dark CHocolate and Watercress (Df/Gf)",
-        "zh": "",
+    "menuPageText3-2-1": {
+        "en": "Confit Duck à l'Orange Rillette (Df/Gf)",
+        "zh": "香橙鸭脯肉酱",
+        "pt": ""
+    },
+
+    "menuPageText3-2-2": {
+        "en": "with Blood Orange Jelly, Grated Bitter Dark Chocolate and Watercress",
+        "zh": "配血橙果冻、黑巧克力末和西洋菜",
         "pt": ""
     },
 
@@ -234,9 +240,15 @@ export default {
         "pt": "Prato Principal"
     },
 
-    "menuPageText3-5": {
-        "en": "Seared Sea Bass Fillet with Saffron and Charred Red Pepper Risotto, Sugar Snap Peas, Braised Baby Leeks, Burnt Lemon, Beetroot Crisps and Saffron Cream Sauce",
-        "zh": "",
+    "menuPageText3-5-1": {
+        "en": "Seared Sea Bass Fillet",
+        "zh": "藏红花烤鲈鱼",
+        "pt": ""
+    },
+
+    "menuPageText3-5-2": {
+        "en": "with Saffron and Charred Red Pepper Risotto, Sugar Snap Peas, Braised Baby Leeks, Burnt Lemon, Beetroot Crisps and Saffron Cream Sauce",
+        "zh": "配烤红椒饭、甜豆荚、炖嫩葱、烤柠檬、甜菜脆片和藏红花奶油酱",
         "pt": ""
     },
 
@@ -252,9 +264,15 @@ export default {
         "pt": "Sobremesa"
     },
 
-    "menuPageText3-8": {
-        "en": "Crème Brûlée with Bitter Chocolate Shortbread Spoon",
-        "zh": "",
+    "menuPageText3-8-1": {
+        "en": "Crème Brûlée",
+        "zh": "焦糖布丁",
+        "pt": ""
+    },
+
+    "menuPageText3-8-2": {
+        "en": "with Bitter Chocolate Shortbread Spoon",
+        "zh": "配黑巧克力酥饼",
         "pt": ""
     },
 
@@ -276,9 +294,15 @@ export default {
         "pt": "Entrada"
     },
 
-    "menuPageText4-2": {
-        "en": "Chickpea and Courgette Falafel with Coconut Yoghurt, Mango Salsa, Chilli Siracha and Crispy Rocket (V/Ve/Gf)",
-        "zh": "",
+    "menuPageText4-2-1": {
+        "en": "Chickpea and Courgette Falafel (V/Ve/Gf)",
+        "zh": "鹰嘴豆和西葫芦炸丸子",
+        "pt": ""
+    },
+    
+    "menuPageText4-2-2": {
+        "en": "with Coconut Yoghurt, Mango Salsa, Chilli Siracha and Crispy Rocket",
+        "zh": "配椰奶酸奶、芒果萨尔萨酱、辣椒沙拉酱和香脆芝麻菜",
         "pt": ""
     },
 
@@ -294,9 +318,15 @@ export default {
         "pt": "Prato Principal"
     },
 
-    "menuPageText4-5": {
-        "en": "Wild Mushroom, Spinach and Brie Open Lasagne with Glazed Vine Cherry Tomatoes, Braised Shallot, Rocket, Parmesan and Balsamic Salac (V)",
-        "zh": "",
+    "menuPageText4-5-1": {
+        "en": "Wild Mushroom, Spinach and Brie Open Lasagne (V)",
+        "zh": "野生蘑菇、菠菜和布里奶酪千层面",
+        "pt": ""
+    },
+    
+    "menuPageText4-5-2": {
+        "en": "with Glazed Vine Cherry Tomatoes, Braised Shallot, Rocket, Parmesan and Balsamic Salad",
+        "zh": "配糖渍小番茄、炖小葱头、芝麻菜、帕尔马奶酪和香醋沙拉",
         "pt": ""
     },
 
@@ -312,9 +342,15 @@ export default {
         "pt": "Sobremesa"
     },
 
-    "menuPageText4-8": {
-        "en": "Crème Brûlée with Bitter Chocolate Shortbread Spoon",
-        "zh": "",
+    "menuPageText4-8-1": {
+        "en": "Crème Brûlée",
+        "zh": "焦糖布丁",
+        "pt": ""
+    },
+
+    "menuPageText4-8-2": {
+        "en": "with Bitter Chocolate Shortbread Spoon",
+        "zh": "配黑巧克力酥饼",
         "pt": ""
     },
 
@@ -433,7 +469,7 @@ export default {
     },
 
     "infoPageText4-5": {
-        "en": ", including one right in front of Queens’ College. For those interested in city history, we recommend ",
+        "en": ", including one right in front of Queens’ College. For those interested in city history, we recommend a ",
         "zh": "，包括皇后学院正门前的一个。如果您对城市历史感兴趣，我们推荐参加带有讲解的",
         "pt": ", incluindo um bem em frente ao Queens’ College. Para aqueles interessados na história da cidade, recomendamos "
     },

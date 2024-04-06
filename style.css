@@ -73,7 +73,7 @@ nav .nav-toggle{
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
         margin: 0;
         padding: 0;
@@ -86,7 +86,7 @@ nav .nav-toggle{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 35vw;
+        width: 25vw;
     }
     
     nav .nav-item {
@@ -107,19 +107,18 @@ nav .nav-toggle{
     } 
 
     .navbar2{
-        width: 30vw;
+        width: 50vw;
         display: flex;
         justify-content: center;
     }
 
     .navbar-logo{
-        width: 35vw;
         display: flex;
         justify-content: start;
     }
 
     .navbar3{
-        width: 35vw;
+        width: 25vw;
         display: flex;
         justify-content: end;
     }
@@ -391,8 +390,6 @@ nav .nav-toggle{
     top: 0;
     width:100%;
     height: 100%;
-    margin-top: 1em;
-    margin-bottom: 2em;
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
     justify-content: center;
@@ -403,15 +400,6 @@ nav .nav-toggle{
     max-height: 100%;
 }
 
-/* #fullsizeImage {
-    transition: transform 0.25s ease;
-    cursor: zoom-in; 
-}
-
-#fullsizeImage.zoomed {
-    transform: scale(80vw); 
-    cursor: zoom-out; 
-} */
 
 @media screen and (max-width: 1150px) {
 
@@ -487,23 +475,39 @@ nav .nav-toggle{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1em;
     width: 500px;
     overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.menu-container-small .handwriting{
+    margin-top:1em; 
+    margin-bottom: 0.5em; 
+    font-size: 2.5em;
 }
 
 .menu{
     background-color: #f7f3ed;
     width: 100%;
     overflow: hidden;
-    padding-top: 3em;
-    padding-bottom: 2em;
+    padding: 10% 5% 15% 5%;
     margin-left:5%;
     margin-right: 5%;
 }
 
 .menu .handwriting{
     font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.menu p{
+    margin:0.5em;
+    padding: 0% 5% 0% 5%;
+}
+
+.menu .italic{
+    font-size: small;
 }
 
 
@@ -533,16 +537,10 @@ nav .nav-toggle{
     }
 
     .menu{
-        background-color: #f7f3ed;
-        padding: 20% 5% 5% 5%;
         width: 100%;
         overflow-x: hidden;
     }
 
-    .menu p{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 }    
 
 

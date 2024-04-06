@@ -100,36 +100,62 @@ function updateTextContent(selectedLanguage) {
 
 // Click image to open and zoom
 
+
 document.addEventListener('DOMContentLoaded', function() {
-
     var thumbnails = document.querySelectorAll('.thumbnail');
-    var modal = document.createElement('div'); //create modal div
-    document.body.appendChild(modal); // add the div to body
-    modal.id = 'imageModal'; // Assign ID and format modal div
-    modal.style.display = 'none'; // hide on the webpage (default)
+    var modal = document.createElement('div');
+    document.body.appendChild(modal);
+    modal.id = 'imageModal';
+    modal.style.display = 'none';
 
-    var fullsizeImage = new Image(); // create full size image
-    fullsizeImage.id = 'fullsizeImage'; // assign ID for formatting
-    modal.appendChild(fullsizeImage); // add into modal div
+    var fullsizeImage = new Image();
+    fullsizeImage.id = 'fullsizeImage';
+    modal.appendChild(fullsizeImage);
 
-    thumbnails.forEach(function(thumbnail) { // apply to all image assigned class "thumbnails"
+    thumbnails.forEach(function(thumbnail) {
         thumbnail.addEventListener('click', function() {
-            var fullsizeUrl = thumbnail.getAttribute('data-fullsize-url'); // set the source of fullsize image as var
-            fullsizeImage.src = fullsizeUrl; // add the source data
-            modal.style.display = 'flex'; //show on screen
+            var fullsizeUrl = thumbnail.getAttribute('data-fullsize-url');
+            fullsizeImage.src = fullsizeUrl;
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Disable scrolling on body
         });
     });
 
     modal.addEventListener('click', function() {
-        modal.style.display = 'none'; //click to hide the full image
+        modal.style.display = 'none';
+        document.body.style.overflow = ''; // Re-enable scrolling on body
     });
 
-    /* Additional code for zoom*/
-    // fullsizeImage.addEventListener('click', function() {
-    //     fullsizeImage.classList.toggle('zoomed');
-    // });
-
+    // Optional: Add zoom functionality to the image
+    fullsizeImage.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent the modal click event
+        fullsizeImage.classList.toggle('zoomed'); // Toggle zoom class
+    });
 });
+
+// document.addEventListener('DOMContentLoaded', function() {
+
+//     var thumbnails = document.querySelectorAll('.thumbnail');
+//     var modal = document.createElement('div'); //create modal div
+//     document.body.appendChild(modal); // add the div to body
+//     modal.id = 'imageModal'; // Assign ID and format modal div
+//     modal.style.display = 'none'; // hide on the webpage (default)
+
+//     var fullsizeImage = new Image(); // create full size image
+//     fullsizeImage.id = 'fullsizeImage'; // assign ID for formatting
+//     modal.appendChild(fullsizeImage); // add into modal div
+
+//     thumbnails.forEach(function(thumbnail) { // apply to all image assigned class "thumbnails"
+//         thumbnail.addEventListener('click', function() {
+//             var fullsizeUrl = thumbnail.getAttribute('data-fullsize-url'); // set the source of fullsize image as var
+//             fullsizeImage.src = fullsizeUrl; // add the source data
+//             modal.style.display = 'flex'; //show on screen
+//         });
+//     });
+
+//     modal.addEventListener('click', function() {
+//         modal.style.display = 'none'; //click to hide the full image
+//     });
 
 
 
