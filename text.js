@@ -302,7 +302,7 @@ export default {
     
     "menuPageText4-2-2": {
         "en": "with Coconut Yoghurt, Mango Salsa, Chilli Siracha and Crispy Rocket",
-        "zh": "配椰奶酸奶、芒果萨尔萨酱、辣椒沙拉酱和香脆芝麻菜",
+        "zh": "配椰奶酸奶、芒果萨尔萨、辣椒沙拉酱和香脆芝麻菜",
         "pt": ""
     },
 
