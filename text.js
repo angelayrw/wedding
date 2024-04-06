@@ -506,7 +506,7 @@ export default {
     
     "infoPageText5-1": {
         "en": "Cambridge offers a wide range of dining options, from upscale/fine dining to cozy, independent restaurants. As steak lovers, we suggest Maison du Steak on Hill Road. If you're looking for a stunning view paired with a delicious brunch menu, consider dining at Six at the Varsity Hotel. Stick and Sushi was our last date night choice at Cambridge. And if you're interested in Chinese cuisine, Seven Days on Regent Street is renowned for being one of the late Stephen Hawking's favorites. Check ",
-        "zh": "剑桥有从高档美食到小众餐厅的各式餐饮选择。 作为牛排爱好者，我们建议您尝试位于Hill Road上的Maison du Steak。如果您喜欢美景和美味的组合，我们推荐您尝试位于Varsity酒店的Six餐厅。 Stick and Sushi是我们在剑桥常去的约会餐厅。 如果您对中国菜感兴趣，Regent Street上的天天是斯蒂芬·霍金生前的最爱。 查看",
+        "zh": "剑桥有从高档美食到小众餐厅的各式餐饮选择。 作为牛排爱好者，我们推荐位于Hill Road上的Maison du Steak。如果您喜欢美景和美味的组合，我们推荐位于Varsity酒店的Six餐厅。 Stick and Sushi是我们在剑桥常去的约会餐厅。 如果您对中国菜感兴趣，Regent Street上的天天是斯蒂芬·霍金生前的最爱。 查看",
         "pt": "Cambridge oferece uma ampla variedade de opções gastronômicas, desde jantares finos até restaurantes independentes aconchegantes. Como amantes de carne, sugerimos o Maison du Steak, com excelentes fritas. Se você procura uma vista deslumbrante acompanhada de um delicioso menu de brunch, considere o restaurante Six, no Varsity Hotel. O Sticks 'n' Sushi foi nossa escolha para nosso último encontro em Cambridge. E se você estiver interessado em culinária chinesa, o Seven Days na Regent Street é famoso por ser um dos favoritos do falecido Stephen Hawking. Consulte o "
     },
     

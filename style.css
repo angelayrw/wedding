@@ -56,7 +56,7 @@ nav .nav-toggle{
 }
 
 .navbar-logo img{
-    width: 60px; 
+    width: 54px; 
     border-radius: 50%;
 }
 
@@ -194,18 +194,20 @@ nav .nav-toggle{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .white-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     color:#f7f3ed;
     align-items: center;
     justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .white {
@@ -253,6 +255,11 @@ nav .nav-toggle{
     text-align: center;
 }
 
+.footer p{
+    font-size: smaller;
+}
+
+
 /* Schedule Page */
 
 .schedule-container-main {
@@ -262,15 +269,19 @@ nav .nav-toggle{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-bottom: 1em;
 }
 
 .schedule-container {
-    margin: em 5em;
-    padding-bottom: 3em;
+    margin: 5em;
     max-width: 34.15em;
 }
 
-.schedule-container .h2 {
+.schedule-title h1 {
+    margin-bottom: 1.5em;
+}
+
+.schedule-container h2 {
     display: flex; 
     align-items: center;
     text-align: center; 
@@ -550,7 +561,7 @@ nav .nav-toggle{
 }    
 
 
-/* Guest Info page */
+/* Travel Guide page */
 
 .info-container-meta{
     padding-left: 15vw;
@@ -589,6 +600,9 @@ nav .nav-toggle{
     font-size: 2em;
 }
 
+.info-container-meta p {
+    text-align: justify;
+}
 
 @media screen and (max-width: 1150px) {
 
