@@ -51,12 +51,12 @@ nav .nav-toggle{
 }
 
 .navbar-logo {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 2px;
 }
 
 .navbar-logo img{
-    width: 50px; 
+    width: 60px; 
     border-radius: 50%;
 }
 
@@ -160,6 +160,10 @@ nav .nav-toggle{
     min-height: 100vh;
 }
 
+.main-body{
+    min-height: 80vh;
+}
+
 *{
     font-family: sans-serif;
     color: #2c2720;
@@ -211,13 +215,17 @@ nav .nav-toggle{
 .couple-name{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: baseline;
     padding-bottom: 4em;
 }
 
 .couple-name h1{
-    width: 35vw;
+    width: 25vw;
+    font-size: 5em;
+}
+
+.white-text p{
+    margin-bottom:1em;
 }
 
 @media screen and (max-width: 1150px) {
@@ -608,49 +616,21 @@ nav .nav-toggle{
 
 /* Contact Page */
 
-.contact-container{
+.contact-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    margin:10%;
-    min-height: 85vh;
-}
-
-.venue-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: center;
+    margin:10%;
 }
 
-.venue-info p{
+.contact-container h1{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.contact-container p{
     margin: 0;
     padding: 0;
-}
-
-.venue-info h2{
-    margin-top: 2em;
-}
-
-.social-container p{
-    margin: 0;
-    padding: 0;
-}
-
-.social-container h2{
-    margin-top: 2em;
-}
-
-@media screen and (max-width: 768px) {
-
-    .venue-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
 }
