@@ -480,10 +480,9 @@ nav .nav-toggle{
     margin-bottom: 1em;
 }
 
-.menu-container-small>.handwriting{
+.menu-container-small h1{
     margin-top:1em; 
     margin-bottom: 1em; 
-    /* font-size: 2em; */
 }
 
 .menu{
@@ -495,8 +494,7 @@ nav .nav-toggle{
     margin-right: 5%;
 }
 
-.menu .handwriting{
-    /* font-size: 1.5em; */
+.menu h2{
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
